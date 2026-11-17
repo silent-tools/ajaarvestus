@@ -97,12 +97,13 @@ h2.sec{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(-
 .runcard .link{color:var(--run);align-self:center}
 
 .list{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
-.prow{display:grid;grid-template-columns:1fr auto;align-items:center;gap:.75rem;padding:.85rem 1rem;border-top:1px solid var(--line)}
+.prow{display:grid;grid-template-columns:1fr;align-items:center;gap:.6rem;padding:.85rem 1rem;border-top:1px solid var(--line)}
 .prow:first-child{border-top:0}
 .pinfo{min-width:0}
-.pname{font-weight:600;font-size:1.08rem;line-height:1.25}
+.pname{font-weight:600;font-size:1.08rem;line-height:1.25;overflow-wrap:anywhere}
+.runproj,.eproj,.invcard h4,.bproj,.mhead h3{overflow-wrap:anywhere;min-width:0}
 .pmeta{color:var(--muted);font-size:.88rem}
-.btn.start{min-width:6.2rem}
+.btn.start{width:100%}
 .btn.start.on{background:var(--run-soft);border-color:var(--run);color:var(--run)}
 
 .empty{background:var(--surface);border:1px dashed var(--line);border-radius:14px;padding:1.2rem;text-align:center;color:var(--muted);display:flex;flex-direction:column;gap:.75rem;align-items:center}
